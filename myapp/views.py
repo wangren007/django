@@ -7,8 +7,8 @@ def index(request): #请求体
 def detail(request,num1,num2):
 	return HttpResponse("detail-(%s+%s)"%(num1,num2))
 
-from .models import Grades,Students
 def grades(request):
+from .models import Grades,Students
 	#去模版里取数据
 	gradesList=Grades.objects.all()
 	#将数据传递给模版，模版在渲染页面，在将渲染好的页面返回浏览器

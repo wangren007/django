@@ -25,7 +25,7 @@ SECRET_KEY = 'k4w5!mej_qw&sm#p^(8hj1u7#j2eyg1^31=pkl#t)0&=p8n7w-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["148.70.35.37"]
 
 
 # Application definition
@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': 'school',
         'USER':'root',#配置用户名
         'PASSWORD':'Richard123456',#数据库密码
-        'HOST':'localhost',#服务器ip
+        'HOST':'148.70.35.37',#服务器ip
         'PORT':'3306',#服务器端口
     }
 }
